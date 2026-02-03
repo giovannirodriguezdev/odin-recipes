@@ -4,7 +4,7 @@ This is the first project of The Odin Project’s Foundations course. The goal i
 
 ## Link
 
-- Live Demo: [View Site](#)
+- Live Demo: [View Site](https://giovannirodriguezdev.github.io/odin-recipes/)
 
 ## Skills
 
@@ -15,4 +15,3 @@ In this project, I focused on the "bones" of the web. This includes:
 - Navigation: Mastering relative file paths to link between the index.html and the recipes/ directory.
 - Media Integration: Adding and properly sizing images within an HTML document.
 - Git Workflow: Practicing the "commit early, commit often" philosophy with descriptive commit messages.
-
