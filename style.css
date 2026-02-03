@@ -1,0 +1,81 @@
+body {
+  font-family: "Pixelify Sans", sans-serif;
+  font-size: 1rem;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding: 1rem 1rem;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  align-content: center;
+  font-size: 2.5rem;
+}
+
+.logo:hover {
+  color: greenyellow;
+}
+
+header ul,
+.nav-container {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+header a,
+.nav-container {
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+
+.nav-container a:hover {
+  color: orangered;
+}
+
+
+/* Recipe Card Section */
+.recipe-section {
+    padding: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.recipe-card {
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+    border: 4px solid black;
+}
+
+.recipe-img {
+    max-width: 100%;
+}
+
+.btn {
+    display: inline-block;
+    background: orangered;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: greenyellow;
+    color: black;
+}
